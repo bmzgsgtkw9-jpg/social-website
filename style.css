@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+}
+
+header {
+    background: #ff9933;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.about, .contact {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #ff9933;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e67e22;
+}
+
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ff9933;
+    font-weight: bold;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
